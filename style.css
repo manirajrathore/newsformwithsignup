@@ -1,0 +1,75 @@
+@font-face {
+  font-family: RegularFont;
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: BoldFont;
+  src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: RegularFont;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(235, 18%, 26%);
+}
+.card{
+  display: flex;
+  width: 700px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.left{
+  width: 60%;
+}
+.right{
+  width: 40%;
+}
+.right img{
+  width: 100%;
+}
+ul{
+  list-style-image: url(./assets/images/icon-success.svg);
+}
+li{
+  margin-bottom: 10px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+input{
+  padding: 10px 20px;
+  font-family: inherit;
+  outline: none;
+  border: 1px solid hsl(231, 7%, 60%);
+  border-radius: 5px;
+  margin: 5px;
+}
+button{
+  font-family: inherit;
+  margin: 20px 0px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+h1{
+  font-family: BoldFont;
+  color: hsl(234, 29%, 20%);
+}
+label{
+  font-family: BoldFont;
+}
+p{
+  font-size: 16px;
+}
